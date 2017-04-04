@@ -1,0 +1,29 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background-size: 109% !important;
+  background-image: url('../images/background.jpg') !important;
+  background-position: center !important;
+  background-attachment: scroll !important;
+  background-repeat: repeat-y !important;
+}
+
+.step-note {
+  font-size: 75% !important;
+  font-style: italic !important;
+}
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal .overlay-text {
+  padding:2% 0 2% 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.reveal section img.no-border {
+  background: 0 !important;
+  border: 0 !important;
+  box-shadow: 0 0 0 0;
+}

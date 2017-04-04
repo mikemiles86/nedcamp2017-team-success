@@ -14,7 +14,7 @@ Reveal.addEventListener( 'ready', function( event ) {
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'plugins/line-numbers/line-numbers.css';
+    link.href = 'plugin/line-numbers/line-numbers.css';
     // Add CSS to head
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   }
@@ -41,7 +41,6 @@ function addLineNumbers() {
         // Get the lines to be highlighted.
         highlights = getLineNumberHighlights(line_numbers[l].getAttribute("data-highlight-lines"));
       }
-
       // Get the content of the code block.
       var content = line_numbers[l].innerHTML;
       var classes = '';
